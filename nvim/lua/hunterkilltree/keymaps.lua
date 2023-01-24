@@ -23,6 +23,11 @@ keymap("n", "<leader>sh", "<C-w>s", opts)
 keymap("n", "<leader>se", "<C-w>=", opts) -- make split window equal
 keymap("n", "<leader>sx", ":close<CR>", opts) -- close current split window
 
+keymap("n", "<leader>to", ":tabnew<CR>", opts) -- open new tab
+keymap("n", "<leader>tc", ":tabclose<CR>", opts) -- close current tab
+keymap("n", "<leader>tn", ":tabn<CR>", opts) -- go to next tab
+keymap("n", "<leader>tp", ":tabp<CR>", opts) -- go to previous tab
+
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
 
 
@@ -30,6 +35,8 @@ keymap("n", "<C-Up>", ":resize +2<CR>", opts)
 keymap("n", "<C-Down>", ":resize -2<CR>", opts)
 keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+
+keymap("t", "<ESC>", "<C-\\><C-n>", opts) -- Exist terminal mode
 
 
 keymap("n", "<S-l>", ":bnext<CR>", opts)
@@ -58,3 +65,11 @@ keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+--------------------------------
+-- Plugin keymaps
+-- -----------------------------
+
+-- nvim-tree
+
+
+-- telescope
