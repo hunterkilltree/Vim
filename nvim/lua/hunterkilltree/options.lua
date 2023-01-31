@@ -35,6 +35,6 @@ vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 
 vim.opt.shortmess:append "c"
-
 vim.cmd "set whichwrap+=<,>,[,],h,l"
+vim.cmd "setlocal spell spelllang=en_us"
 vim.cmd [[set iskeyword+=-]]
