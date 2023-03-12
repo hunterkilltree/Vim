@@ -13,13 +13,17 @@ Neovim v0.5 or higher version (Sample Debian)
 ```
 wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
 sudo apt install ./nvim-linux64.deb
-sudo apt instal nodejs # (debian 10 for markdown plugin)
+sudo apt install yarn # (debian 10 for markdown plugin)
 ```
 
 
 Change oh-my-zsh themes 
 ```
 nvim .zshrc # update ZSH_THEME="agnoster"
+```
+Note: sometimes need to fix
+```
+source ~/.zshrc
 ```
 
 Fonts DejaVu Sans Mono
