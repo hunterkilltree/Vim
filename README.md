@@ -4,7 +4,9 @@
 Install ohmyzsh help to your terminal more beautiful
 
 ```
-sudo apt-get install zsh
+sudo apt-get install git
+sudo apt-get install wget
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
 Neovim v0.5 or higher version
