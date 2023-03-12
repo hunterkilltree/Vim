@@ -13,7 +13,7 @@ Neovim v0.5 or higher version (Sample Debian)
 ```
 wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
 sudo apt install ./nvim-linux64.deb
-sudo apt install yarn # (debian 10 for markdown plugin, view [http://localhost:8389](http://localhost:8389/page/1))
+sudo apt install yarn # (debian 10 for markdown plugin, view http://localhost:8389/page/1)
 ```
 
 
