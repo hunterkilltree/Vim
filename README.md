@@ -13,6 +13,7 @@ Neovim v0.5 or higher version (Sample Debian)
 ```
 wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
 sudo apt install ./nvim-linux64.deb
+sudo apt instal nodejs # (debian 10 for markdown plugin)
 ```
 
 
