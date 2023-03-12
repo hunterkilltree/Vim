@@ -9,7 +9,19 @@ sudo apt-get install wget
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-Neovim v0.5 or higher version
+Neovim v0.5 or higher version (Sample Debian)
+```
+wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
+sudo apt install ./nvim-linux64.deb
+```
+
+
+Change oh-my-zsh themes 
+```
+nvim .zshrc # update ZSH_THEME="agnoster"
+```
+
+Fonts DejaVu Sans Mono
 
 ### My Vim setup 
 
