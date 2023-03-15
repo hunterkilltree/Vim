@@ -67,6 +67,12 @@ return packer.startup(function(use)
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer 
 
+  -- easily install and manage LSP servers, DAP servers, linters, formaters
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
+
+  -- work with jdtls
+  --use "mfussenegger/nvim-jdtls"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
 
