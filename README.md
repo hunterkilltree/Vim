@@ -28,6 +28,13 @@ source ~/.zshrc
 
 Fonts DejaVu Sans Mono
 
+### Programming Language setup
+```
+sudo apt install default-jre # java
+sudo apt install default-jdk # javac
+npm install typescript --save-dev # typescript
+
+
 ### My Vim setup 
 
 Due to work reasons, I have to code and test the program in different machines. Therefore, the coding environment is very important with me.
