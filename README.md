@@ -30,8 +30,8 @@ Fonts DejaVu Sans Mono
 
 ### Programming Language setup
 ```
-sudo apt install default-jre # java
-sudo apt install default-jdk # javac
+sudo apt install openjdk-17-jre # java
+sudo apt install openjdk-17-jdk # javac
 npm install typescript --save-dev # typescript
 
 
