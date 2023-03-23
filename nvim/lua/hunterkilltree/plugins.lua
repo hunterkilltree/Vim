@@ -71,6 +71,18 @@ return packer.startup(function(use)
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
 
+  -- displays a popup with possible keybindings of the command you started typing
+  use {
+    "folke/which-key.nvim",
+    config = function ()
+      vim.o.timeout = true
+      vim.o.timeoutlen = 300
+      require("which-key").setup {
+
+      }
+    end
+  }
+
   -- work with jdtls
   --use "mfussenegger/nvim-jdtls"
   -- Automatically set up your configuration after cloning packer.nvim
