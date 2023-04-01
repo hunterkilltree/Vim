@@ -4,6 +4,8 @@ require ("hunterkilltree.plugins")
 require ("hunterkilltree.colorscheme")
 require ("hunterkilltree.cmp")
 
+require ("hunterkilltree.telescope")
+
 --require ("hunterkilltree.lsp")
 -- using mason setup
 require ("mason").setup()
