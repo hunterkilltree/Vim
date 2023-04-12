@@ -5,6 +5,7 @@ require ("hunterkilltree.colorscheme")
 require ("hunterkilltree.cmp")
 
 require ("hunterkilltree.telescope")
+require ("hunterkilltree.treesitter")
 
 --require ("hunterkilltree.lsp")
 -- using mason setup
@@ -18,6 +19,7 @@ require ("lspconfig").lua_ls.setup {}
 require ("lspconfig")["tsserver"].setup {}
 require ("lspconfig")["prettier"].setup {}
 
-  -- init.lua
+-- init.lua
 --require'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
 require'lspconfig'.jdtls.setup{}
+
