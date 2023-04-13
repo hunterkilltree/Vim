@@ -71,9 +71,14 @@ return packer.startup(function(use)
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
 
-  -- telescope the powerful things
+  -- telescope the powerful things for searching
   use "nvim-telescope/telescope.nvim"
 
+  -- treesitter syntax highlight
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate',
+  }
   -- displays a popup with possible keybindings of the command you started typing
   use {
     "folke/which-key.nvim",

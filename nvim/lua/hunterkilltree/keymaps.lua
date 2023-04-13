@@ -1,6 +1,6 @@
-local opts = { noremap = true, silent = true }
+local opts = { noremap = true, silent = false }
 
-local term_opts = { silent = true }
+local term_opts = { silent = false }
 
 local keymap = vim.api.nvim_set_keymap
 
