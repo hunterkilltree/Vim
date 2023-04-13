@@ -6,6 +6,7 @@ require ("hunterkilltree.cmp")
 
 require ("hunterkilltree.telescope")
 require ("hunterkilltree.treesitter")
+require ("hunterkilltree.whichkey")
 
 --require ("hunterkilltree.lsp")
 -- using mason setup
