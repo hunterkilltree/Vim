@@ -4,7 +4,18 @@ if not status_ok then
 end
 
 configs.setup {
-  ensure_installed = { "c", "lua", "vim", "vimdoc", "query" }, -- A list of parser names, or "all" (the five listed parsers should always be installed)
+  ensure_installed = {
+    "c",
+    "lua",
+    "vim",
+    "vimdoc",
+    "query",
+    "java",
+    "javascript",
+    "html",
+    "css",
+    "scss"
+  }, -- A list of parser names, or "all" (the five listed parsers should always be installed)
   sync_install = false, -- install languages synchronously (only applied to 'ensure_installed')
   ignore_install = { "" }, -- list of parsers to igore installing
   highlight = {
@@ -12,5 +23,8 @@ configs.setup {
     disable = { "" }, -- list of language that will be disabled
     additional_vim_regex_highlighting = true,
   },
-  indent = { enable = true, disable = { "yaml" } },
+  indent = {
+    enable = true,
+    disable = { "yaml" }
+  },
 }

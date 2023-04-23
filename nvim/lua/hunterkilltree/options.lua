@@ -38,3 +38,7 @@ vim.opt.shortmess:append "c"
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd "setlocal spell spelllang=en_us"
 vim.cmd [[set iskeyword+=-]]
+
+vim.cmd "set foldmethod=expr"
+vim.cmd "set foldexpr=nvim_treesitter#foldexpr()"
+vim.cmd "set nofoldenable"                     -- Disable folding at startup.`

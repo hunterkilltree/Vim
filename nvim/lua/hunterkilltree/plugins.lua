@@ -76,8 +76,7 @@ return packer.startup(function(use)
 
   -- treesitter syntax highlight
   use {
-    'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate',
+    'nvim-treesitter/nvim-treesitter'
   }
   -- displays a popup with possible keybindings of the command you started typing
   use {
@@ -90,6 +89,9 @@ return packer.startup(function(use)
       }
     end
   }
+
+  -- comment/ uncomment
+  use "terrortylor/nvim-comment"
 
   -- work with jdtls
   --use "mfussenegger/nvim-jdtls"
