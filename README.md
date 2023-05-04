@@ -33,6 +33,31 @@ Fonts DejaVu Sans Mono
 sudo apt install openjdk-17-jre # java
 sudo apt install openjdk-17-jdk # javac
 npm install typescript --save-dev # typescript
+```
+
+
+### Tmux
+```
+sudo apt install tmux
+# tmux package mananger
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+touch ~/.config/tmux/tmux.conf
+vim ~/.config/tmux/tmux.conf
+```
+
+In tmux.conf 
+```
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+
+run '~/.tmux/plugins/tpm/tpm'
+```
+
+Run tmux to load it 
+```
+tmux source ~/.config/tmux/tmux.conf
+
+```
 
 
 ### My Vim setup 
